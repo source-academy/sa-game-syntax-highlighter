@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Sa",
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.sa",
+          "match": "\\b(if)\\b"
+        },
+        {
+          "name": "keyword.other.sa",
+          "match": "\\b(startingLoc|startActions|endActions|objectives|dialogues|locations)\\b"
+        },
+        {
+          "name": "keyword.other.sa",
+          "match": "\\b(modes|nav|talkTopics)\\b"
+        },
+        {
+          "name": "keyword.other.sa",
+          "match": "\\b(objects|characters|boundingBoxes|sfx|bgm|actions)\\b"
+        },
+        {
+          "name": "support.function.sa",
+          "match": "[a-z_*]*?[(]"
+        },
+        {
+          "name": "support.function.sa",
+          "match": "[)]"
+        },
+        {
+          "name": "support.class.sa",
+          "match": "@.*?[,\n]"
+        },
+        {
+          "name": "comment.line.double-line.sa",
+          "match": "//.*?[,\n]"
+        },
+        {
+          "name": "constant.numeric.sa",
+          "match": "[0-9]"
+        }
+      ]
+    },
+    "strings": {
+      "name": "string.quoted.double.sa",
+      "begin": "/",
+      "end": ","
+    }
+  },
+  "scopeName": "source.sa"
+}

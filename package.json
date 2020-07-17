@@ -1,0 +1,25 @@
+{
+    "name": "sa-game",
+    "displayName": "SA Game",
+    "description": "Syntax highlighting for sa game lang",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sa",
+            "aliases": ["Sa", "sa"],
+            "extensions": [".sa"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sa",
+            "scopeName": "source.sa",
+            "path": "./syntaxes/sa.tmLanguage.json"
+        }]
+    }
+}
