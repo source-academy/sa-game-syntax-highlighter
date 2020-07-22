@@ -7,7 +7,7 @@ This is the Visual Studio Code extension for the Source Academy game txt
 Step 1: Clone the extension repo
 
 ```
-git clone https://github.com/sciffany/sa-game.git
+git clone https://github.com/source-academy/sa-game-syntax-highlighter.git
 ```
 
 Step 2: Copy the extension folder to the extension directory.
@@ -19,3 +19,6 @@ Step 2: Copy the extension folder to the extension directory.
 ```
 $HOME/.vscode/extensions
 ```
+
+
+Step 3: While using the .txt, change language to Sa (bottom right corner in VS Code)
