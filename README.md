@@ -22,3 +22,10 @@ $HOME/.vscode/extensions
 
 
 Step 3: While using the .txt, change language to Sa (bottom right corner in VS Code)
+
+
+# Contributing
+
+Here is a guide on how to edit text mate json files
+
+https://macromates.com/manual/en/language_grammars#naming-conventions
